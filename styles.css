@@ -1,0 +1,81 @@
+/* Sayfa genel stili */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Başlık ve menü */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Ana içerik */
+main {
+    padding: 20px;
+}
+
+/* Kahraman bölümü */
+.hero {
+    background-color: #0073e6;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.hero h2 {
+    margin: 0;
+}
+
+.hero p {
+    margin: 15px 0;
+}
+
+.hero button {
+    background-color: #fff;
+    color: #0073e6;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.hero button:hover {
+    background-color: #f4f4f4;
+    color: #0073e6;
+}
+
+/* Alt kısım */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
